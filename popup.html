@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Local QrCoding</title>
+    <style>
+			body {
+				background-color: white;
+				width: 300px;
+			}
+			
+			img {
+				margin: 5px auto;
+			}
+
+			#url, #qrcode{
+				margin: 10px auto 10px;
+				padding: 5px;
+				background-color: white;
+				-moz-box-shadow:0 0 10px orange ;
+				-webkit-box-shadow:0 0 10px orange;
+				box-shadow:0 0 10px orange;
+				text-align: center;
+			}
+			
+			#url {
+				font-family: Consolas, monospace;
+			}
+			
+			.wordwrap { 
+				 white-space: pre-wrap;      /* CSS3 */   
+				 white-space: -moz-pre-wrap; /* Firefox */    
+				 white-space: -pre-wrap;     /* Opera <7 */   
+				 white-space: -o-pre-wrap;   /* Opera 7 */    
+				 word-wrap: break-word;      /* IE */
+			}
+    </style>
+
+		<script src="jquery.min.js"></script>
+		<script src="qrcode.min.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+		<div id="url" class="wordwrap"></div>
+		<div id="qrcode"></div>
+  </body>
+</html>
+
