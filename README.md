@@ -3,24 +3,19 @@
 Local QrCoding is a pure Chrome extension to generate QRcode for the url of the current tab.
 
 ##Install
-I attempt to submit it to Chrome Webstore, but Google ask me to pay $5 at first to become a developer.
-Uhn....I decide to pay when I can pay...If someone want to donate $5 to me, it will be nice too, haha.
 
-So you can only use install file.
+OK, the extension is on webstore now~ 
 
-1. Open [`chrome://extensions`](chrome://extensions/)
-2. Download the extension at [here](https://github.com/Garnel/Local-Qrcoding/raw/master/extension/Local%20QrCoding.crx).
-3. Drag the downloaded ctx file to the `extensions` page you opened at step 1 and install it.
+[-> 点这里 <-](https://chrome.google.com/webstore/detail/local-qrcoding/mlameehlcfjhckamekhnnbcgimhphbjd)
+
 
 ##Dependence
-Local QrCoding makes use of [`qrcode.js`](http://davidshimjs.github.io/qrcodejs/ "qrcode.js") as well as [`jquery`](http://jquery.com/ "jquery").
-
-And also a code snippet from `CSS-TRICKS` at [http://css-tricks.com/snippets/jquery/triple-click-event/](http://css-tricks.com/snippets/jquery/triple-click-event/ "Triple Click Event")
+Local QrCoding makes use of [`qrcode.js`](http://davidshimjs.github.io/qrcodejs/ "qrcode.js") only.
 
 ##License
 MIT License
 
 ## Contact
-Weibo @游冥客
+Weibo [@游冥客](http://weibo.com/garnel)
 
-Email maogm12 [AT] gmail.com
+Email <maogm12@gmail.com>
